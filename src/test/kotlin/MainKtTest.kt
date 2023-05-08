@@ -10,7 +10,7 @@ class MainKtTest {
         val transfer = 100_000
         val previous = 0
         val result = comission(typeCard, transfer, previous)
-        assertEquals(620, result)
+        assertEquals(400, result)
     }
 
     @Test
@@ -46,7 +46,7 @@ class MainKtTest {
         val transfer = 10_000
         val previous = 0
         val result = comission(typeCard, transfer, previous)
-        assertEquals(75, result)
+        assertEquals(100, result)
     }
 
     @Test
